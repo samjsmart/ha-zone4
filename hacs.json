@@ -1,6 +1,4 @@
 {
-  "domains": ["media_player"],
-  "iot_class": "Local Polling",
   "name": "Zone4 Remote",
   "render_readme": true
 }
