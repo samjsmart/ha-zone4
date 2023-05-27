@@ -1,5 +1,4 @@
 {
-  "documentation": "https://github.com/samjsmart/zone4",
   "domains": ["media_player"],
   "iot_class": "Local Polling",
   "name": "Zone4 Remote",
