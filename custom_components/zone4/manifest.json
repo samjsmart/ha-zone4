@@ -1,0 +1,17 @@
+{
+  "domain": "zone4",
+  "name": "zone4-remote",
+  "config_flow": false,
+  "documentation": "https://www.home-assistant.io/integrations/zone4",
+  "requirements": [
+    "zone4==0.0.1"
+  ],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@samjsmart"
+  ],
+  "iot_class": "local_polling"
+}
