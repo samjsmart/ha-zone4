@@ -1,15 +1,15 @@
 {
   "domain": "zone4",
   "name": "Zone4 Remote",
+  "codeowners": [
+    "@samjsmart"
+  ],
   "config_flow": false,
   "documentation": "https://github.com/samjsmart/zone4-ha/readme.md",
+  "iot_class": "local_polling",
   "issue_tracker": "https://github.com/samjsmart/zone4-ha/issues",
   "requirements": [
     "zone4==0.0.1"
   ],
-  "version": "0.0.1",
-  "codeowners": [
-    "@samjsmart"
-  ],
-  "iot_class": "local_polling"
+  "version": "0.0.1"
 }
