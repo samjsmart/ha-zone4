@@ -1,0 +1,4 @@
+homeassistant==2023.5.4
+pyserial==3.5
+voluptuous==0.13.1
+zone4==0.0.1
