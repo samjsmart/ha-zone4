@@ -26,9 +26,14 @@ A custom component that allows for control of the APART Zone4 pre-amp over seria
 Add the following to your `configuration.yaml` file:
 
 ```yaml
-zone4_remote:
-  port: /dev/ttyUSB0
-  baudrate: 9600
+media_player:
+  - platform: zone4
+    port: /dev/ttyUSB0
+    zone_names: # Optional
+      "1": "Garden"
+      "2": "Kitchen"
+      "3": "Living Room"
+      "4": "Office"
 ```
 
 ## Notes
